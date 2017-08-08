@@ -1,0 +1,31 @@
+
+#signup {
+    text-align: center;
+    margin-top: 0%;
+}
+
+input {
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 2%;
+    border: 2px solid steelblue;
+    background: white;
+}
+
+
+#submit{
+    background: steelblue;
+    color: white;
+}
+
+h1{
+    margin-bottom: 5%;
+}
+h2{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 40px;
+}
+.signs{
+    margin-top: 1%;
+    margin-left: 45%;
+}

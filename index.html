@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Welcome</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" href="icon.png" />
+</head>
+<body>
+
+<div class="container">
+  <header>
+      <img src="banner.png"/>
+  </header>
+
+  <div class="indexDiv" id="randomInfo">
+        <h1 id="introtext">
+				<span id="icon" class="int"><img src="icon.png" id="icon"></span>
+				<span class="int" id="welcome">Welcome</span>
+				<span class="int" id="to">to</span>
+				<span class="int" id="discuss">discuss.</span>
+		</h1>
+
+      <p>
+        <h3><strong>"</strong>Discuss is a community where users are allowed to exercise their right of speech, without fear of 
+          bullies. Discuss is a social network, without the danger of an exposed identity and personal information.
+        </h3>
+      </p>
+    </div>
+    <div class="indexDiv" id='enterOptions'>
+      <h1>
+        Join Discuss
+      </h1>
+      <button onclick="window.location.href='signup.html'" id="signButton">Sign Up</button>
+      <button onclick="window.location.href='login.html'" id="logButton">Log In</button>
+
+    </div>
+
+    
+</div>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+
+<script src="index.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+
+</body>
+</html>
